@@ -49,3 +49,14 @@ const mayorACero = (num) => {
 
 console.log(mayorACero(-3))
 
+//Hacer un programa para ingresar un número y mostrar por pantalla un cartel
+//aclaratorio si el mismo es PAR o IMPAR.
+
+const parImpar = (num) => {
+    if(num % 2 == 0 ){
+        return "es par"
+    }
+    return "es impar"
+}
+
+console.log(parImpar(4))
